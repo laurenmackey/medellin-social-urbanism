@@ -1,0 +1,30 @@
+Html, body, div {
+    Padding: 0;
+    Border: 0;
+    Margin: 0;
+}
+
+.neighborhood-svg-container {
+    height: 0px;
+    padding-bottom: 51%;
+}
+
+.neighborhood-svg-content {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+#neighborhood_Guayabal_14 path, #neighborhood_La_Candelaria_14 path, #neighborhood_x31_2_de_Octubre_14 path, 
+#neighborhood_San_Javier_14 path {
+    cursor: pointer;
+}
+
+#neighborhood_Guayabal_14 path:hover, #neighborhood_La_Candelaria_14 path:hover, 
+#neighborhood_x31_2_de_Octubre_14 path:hover, #neighborhood_San_Javier_14 path:hover {
+    fill: #E2CD50;
+}
+
+#neighborhood_Return_Button g rect, #neighborhood_timelineCircles circle, .neighborhood_closeButton {
+    cursor: pointer;
+}

@@ -1,0 +1,95 @@
+Html, body, div {
+    Padding: 0;
+    Border: 0;
+    Margin: 0;
+}
+
+hr {
+    border: none;
+    height: 2.5px;
+    background-color: black;
+}
+
+.paper {
+    font-size: 20px;
+    font-family: Georgia, Cambria, serif;
+    margin-top: 50px;
+    margin-left: 27.5%;
+    margin-right: 24.5%;
+    line-height: 180%;
+    letter-spacing: -.003em;
+    color: rgba(0,0,0,.8);
+    z-index: 1;
+}
+
+.inPaperImage {
+    margin-left: 20%;
+    margin-right: 20%;
+    width:60%;
+}
+
+#byline {
+    font-style: italic;
+    font-size: 17.5px;
+}
+
+#title {
+    font-size: 42px;
+    font-family: Helvetica, Arial, sans-serif;
+    line-height: 110%;
+}
+
+.sectionHeader {
+    font-size: 25px;
+    font-family: Helvetica, Arial, sans-serif;
+    line-height: 105%;
+}
+
+.qolIndexHeader {
+    font-weight: bold;
+}
+
+li {
+    list-style-type: square;
+}
+
+#titleImage {
+    width: 100%;
+}
+
+.imageCaption {
+    font-size: 13px;
+    font-family: Geneva,Arial,sans-serif;
+    color: gray;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+
+.betweenLines {
+    margin: 33.5px;
+}
+
+.betweenTitle {
+    margin-top: -25px;
+}
+
+.firstParagraph {
+    margin-top: 35px;
+}
+
+.svgImage {
+    width: 100%;
+}
+
+.neighborhoodMap {
+    position: relative;
+    z-index: 2;
+    margin-bottom: -2%;
+}
+
+.medellinMap {
+    position: relative;
+    z-index: 2;
+    margin-bottom: -2%;
+}
